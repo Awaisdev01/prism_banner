@@ -1,0 +1,15 @@
+name: prism_banner_example
+description: Demo app for prism_banner.
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  prism_banner:
+    path: ..
+
+flutter:
+  uses-material-design: true
